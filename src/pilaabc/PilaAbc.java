@@ -44,11 +44,12 @@ public class PilaAbc {
         Scanner sc = new Scanner(System.in);
         int opt = 0;
         do {
-            System.out.println("\n1 llenar\n"
-                    + "2 mostrar\n"
-                    + "3 eliminar\n"
-                    + "4 agregar\n"
-                    + "5 salir\n");
+            System.out.println("1 llenar");
+            System.out.println("2 mostrar");
+            System.out.println("3 eliminar");
+            System.out.println("4 agregar");
+            System.out.println("5 salir1"
+                    + "");
             switch (opt = sc.nextInt()) {
                 case 1:
                     c.llenar();
